@@ -1,0 +1,778 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.head{  
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.head1{
+    color: #354463;
+    top: 2.8125rem;
+    left: 2rem;
+    width: 7.8125rem;
+    height: 2.5rem;
+    text-align: left;
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    margin: 10px 10px 10px 10px;
+}
+.side{
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.don{
+    height: 2.5rem;
+    width: 90%;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin: 1rem 1rem 1rem 1rem;
+
+}
+.donate{
+    text-align: left;
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    
+}
+
+
+.pic{
+    height: 76vh;
+    width: 100%;
+    background-image: url(../assets/home/annie-spratt-135307-unsplash.png);
+    overflow: visible;
+    background-size: cover;
+    background-position:right;
+    display: flex;
+    position:relative;
+    
+
+}
+
+.quote{
+    position:absolute;
+    right:0.1%;
+    top: 11%;
+    transform: translateX(-5%);
+    height: 9rem;
+    width: 50%;
+    background-image: url('../assets/home/stopclimatechange.png');
+    background-size: contain;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+.box{
+    background-color: white;
+    height: 16rem;
+    width: 19rem;
+    position: absolute;
+    top: 17rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.para{
+    top: 560px;
+    left: 51px;
+    width: 278px;
+    height: 78px;
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+}
+.issue{
+    background-color: aquamarine;
+    height: 2rem;
+    width: 8rem;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:16rem;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.the{
+    text-align: center;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.action{
+    background-color: aquamarine;
+    height: 2rem;
+    width: 8rem;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:97%;
+    z-index: 1;
+    
+
+}
+.take{
+    text-align: center;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.main{
+    height: 35vh;
+    width: 100%;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.section1{
+    margin: 1rem 1rem 1rem 1rem;
+}
+.learn{
+    margin: 1rem 1rem 1rem 1rem;
+}
+.volunteer{
+    margin: 1rem 1rem 1rem 1rem;
+}
+.section2 {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.share {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.donatee{
+    margin: 1rem 1rem 1rem 1rem;
+}
+.content1{
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+    margin-left: 0.5em;
+
+}
+.head1{
+    text-align: left;
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    display: flex;
+    align-items: end;
+}
+.main1{
+    height: 102rem;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position:relative;
+}
+.what{
+    top: 1163px;
+    left: 108px;
+    width: 160px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2.5%;
+}
+.do{
+    /* Layout Properties */
+    top: 1174px;
+    left: 108px;
+    width: 160px;
+    height: 18px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #354463;
+    opacity: 1;
+}
+.mission{
+    top: 1225px;
+    left: 36px;
+    width: 302px;
+    height: 134px;
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position:absolute;
+    top: 6%;
+}
+.box1{
+    height: 22rem;
+    width: 80%;
+    background-color: white;
+    position:relative;
+    top: 24%;
+    left: 9%;
+    position:relative;
+}
+.box2{
+    height: 22rem;
+    width: 80%;
+    background-color: white;
+    position: relative;
+    top: 29%;
+    left: 9%;
+}
+.box3 {
+    height: 22rem;
+    width: 80%;
+    background-color: white;
+    position: relative;
+    top: 34%;
+    left: 9%;
+}
+.c1{
+    width: 13rem;
+    height: 10rem;
+    overflow: hidden;
+    position:absolute;
+    top: 19%;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.c1 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.tree{
+    position:absolute;
+    top: 40%;
+    left: 15%;
+    text-align: center;
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+.root{
+    position: absolute;
+    top: 49%;
+    left: 1%;
+    text-align: center;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463; 
+    opacity: 1;
+}
+.read{
+    height: 2rem;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    width: 8.5rem;
+    position: absolute;
+    top: 85%;
+    left: 26%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.readmore{
+    text-align: left;
+    font: normal normal bold 16px/20px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+.tree1{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    text-align: center;
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+.c2 {
+    width: 13rem;
+    height: 10rem;
+    overflow: hidden;
+    position: absolute;
+    top: 48%;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.c2 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.c3 {
+    width: 13rem;
+    height: 10rem;
+    overflow: hidden;
+    position: absolute;
+    top: 74%;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.c3 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.main2 {
+    width: 100%;
+    height: 75rem;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.today{
+    height: 2.5rem;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    width: 9.5rem;
+    position: absolute;
+    top: 26%;
+    left: 12%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    text-align: left;
+    font: normal normal bold 16px/20px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+.did{
+    background-color: aquamarine;
+    height: 2rem;
+    width: 8rem;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 8.8rem;
+    top: 33.5%;
+    z-index: 10;
+}
+
+.know {
+    text-align: center;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.wb {
+    position: absolute;
+    top: 26rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    height: 10rem;
+    width: 18rem;
+    z-index: 1;
+}
+.img1 {
+    width: 2rem;
+    height: 2rem;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 17%;
+    right: 10%;
+}
+
+.img1 img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    color: #354463;
+}
+
+.img2 {
+    width: 2rem;
+    height: 2rem;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+.img2 img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    color: #354463;
+}
+.out{
+    text-align: left;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    position:absolute;
+    top: 20%;
+    left: 10%;
+
+
+}
+.t1{
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 32%;
+    left: 10%;
+}
+.wb1{
+    top: 51%;
+
+}
+.wb2{
+    top: 67%;
+}
+.wb3{
+    top: 83%;
+}
+.read1 {
+    height: 7%;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    width: 40%;
+    position: absolute;
+    bottom: 4%;
+    left: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c{
+    height: 17%;
+    background-image: url('/assets/home/Climate\ changeIs\ a\ hunger\ issue..png');
+    width: 70%;
+    position: absolute;
+    top: 5rem;
+    left: 4.5rem;
+    z-index: 2;
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.main2 {
+    width: 100%;
+    height: 75rem;
+    overflow: hidden;
+    position: relative;
+}
+.issue1 {
+    top: 3.5%;
+}
+.main3 {
+    height: 48rem;
+    width: 100%;
+    
+    position: relative;
+}
+.cont {
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: center;
+}
+.content2 {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    height: 35%;
+    width: 75%;
+    background-color: #354463;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+p{
+    text-align: center;
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.end {
+    height: rem;
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.img4 {
+    height: 35%;
+    width: 85%;
+    background-image: url('/assets/home/lady-baby.png');
+    background-size: contain;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main4{
+    height: 90rem;
+    width: 100%;
+    background-color: #354463;
+    position: relative;
+}
+.event{
+    height: 2rem;
+    width: 9rem;
+    background-color: #FFFFFF;
+    position:absolute;
+    top: 16%;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.eventcont{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #354463;
+    opacity: 1;
+}
+.pic1{
+    height: 18%;
+    width: 80%;
+    background-image: url("/assets/home/tree-planting.png");
+    background-size: cover;
+    position:absolute;
+    background-repeat: no-repeat;
+    top: 17%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.earth{
+    height: 5%;
+    width:80%;
+    top: 36.5%;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.text1{
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.text2{
+    height: 8%;
+    width: 80%;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translateX(-50%);
+    font: normal normal 300 16px/24px Helvetica;
+    padding: 1rem;
+}
+.text2a{
+    text-align: center;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #D1D5DB;
+    opacity: 1;
+}
+.r1{
+    height: 2.5%;
+    top: 51%;
+}
+
+.e{
+    top: 57%;
+}
+.p1{
+    top: 58%;
+}
+.e1{
+    top: 79%;
+}
+.t2 {
+    top:83% ;
+}
+
+.r2 {
+    top: 94%;
+}
+
+.main6{
+    height: 15rem;
+    width: 100%;
+    background-color:#C1F7D5;
+    position: relative;
+}
+.subs{
+    display: flex;
+    height: 40%;
+    width: 80%;
+    justify-content: center;
+    position: absolute;
+    top: 15%;
+    left:50%;
+    transform: translateX(-50%);
+    align-items: center;
+}
+.sub{
+    text-align: left;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+.email{
+    height: 2rem;
+    width: 11rem;
+    background-color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:1rem;
+    position: absolute;
+    bottom: 17%;
+    left: 7%;
+}
+.email1{
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    color: #6c757d;
+    }
+.read2{
+    background-color: #354463;
+    bottom:17%;
+    right: 10%;
+    position:absolute;
+    height: 2rem;
+    width: 7.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.r3{
+    color: #C1F7D5;
+}
+.main7{
+    height: 74vh;
+    width: 100%;
+    position: relative;
+}
+.h1{
+    position: absolute;
+    top: 16%;
+}
+.q1{
+    background-image: url("/assets/home/stopclimatechange1.png");
+    position: absolute;
+    top: 65%;
+}
+.con{
+    height: 19%;
+    width: 31%;
+    position: absolute;
+    top: 14%;
+    right: 10%;
+}
+.us{
+    text-align: left;
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #354463;
+    opacity: 1;
+}
+.contact{
+    text-align: left;
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #354463;
+    opacity: 1;
+    margin-bottom: 5%;
+}
+.f1{
+    top:40%;
+    left: 10%;
+}
+.l2{
+    top: 40%;
+    right: 10%;
+}
