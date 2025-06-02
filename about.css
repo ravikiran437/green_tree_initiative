@@ -1,0 +1,489 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.head {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head1 {
+  color: #354463;
+  top: 2.8125rem;
+  left: 2rem;
+  width: 7.8125rem;
+  height: 2.5rem;
+  text-align: left;
+  font: normal normal bold 18px/22px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  margin: 10px 10px 10px 10px;
+}
+
+.side {
+  text-align: left;
+  font: normal normal 300 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.donate {
+  text-align: left;
+  font: normal normal bold 18px/22px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+}
+.don {
+  height: 2.5rem;
+  width: 90%;
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  border: none;
+  text-align: left;
+  font: normal normal bold 18px/22px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  text-decoration: none;
+}
+
+.don:hover {
+  background-color: #a8eec3;
+}
+
+.don:active {
+  background-color: #91dcb0;
+  transform: scale(0.98);
+}
+.main7 {
+  height: 74vh;
+  width: 100%;
+  position: relative;
+}
+
+.h1 {
+  position: absolute;
+  top: 12%;
+}
+
+.quote {
+  right: 0.1%;
+  transform: translateX(-5%);
+  height: 9rem;
+  width: 50%;
+  background-size: contain;
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
+
+.q1 {
+  background-image: url("/assets/home/stopclimatechange1.png");
+  position: absolute;
+  top: 65%;
+}
+
+.con {
+  height: 19%;
+  width: 31%;
+  position: absolute;
+  top: 14%;
+  right: 10%;
+}
+
+.us {
+  text-align: left;
+  font: normal normal normal 11px/13px Helvetica;
+  letter-spacing: 0.44px;
+  color: #354463;
+  opacity: 1;
+}
+
+.contact {
+  text-align: left;
+  font: normal normal normal 11px/13px Helvetica;
+  letter-spacing: 0.44px;
+  color: #354463;
+  opacity: 1;
+  margin-bottom: 5%;
+}
+
+.f1 {
+  top: 40%;
+  left: 15%;
+}
+
+.l2 {
+  top: 40%;
+  right: 4%;
+}
+.pic {
+  height: 80vh;
+  width: 100%;
+  background-image: url("assets/about-us/annie-spratt-427339-unsplash.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.76;
+  position: relative;
+}
+.picquote {
+  position: absolute;
+  left: 25%;
+  top: 9%;
+  transform: translateX(-5%);
+  height: 9rem;
+  width: 50%;
+  background-image: url("../assets/home/stopclimatechange.png");
+  background-size: contain;
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
+.box {
+  height: 50%;
+  background-color: white;
+  width: 80%;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  height: 80%;
+  width: 80%;
+  text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #202b43;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.issue {
+  background-color: #354463;
+  height: 2rem;
+  width: 6rem;
+  text-align: center;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #ffffff;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 42.5%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 1;
+}
+.main2 {
+  height: 135vh;
+  width: 100%;
+  background-color: #354463;
+  position: relative;
+}
+.mission {
+  height: 2rem;
+  width: 10rem;
+  background-color: white;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #354463;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.matter {
+  padding: 1rem;
+  height: 18%;
+  width: 90%;
+  background-color: #354463;
+  text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 7.5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.part {
+  position: absolute;
+  top: 30%;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 0.2rem;
+}
+.part1 {
+  height: 20%;
+  width: 48%;
+}
+.logo {
+  height: 25%;
+  width: 40%;
+  background-image: url(assets/about-us/Icon\ person.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+.a1 {
+  background-image: url("assets/about-us/Icon\ earth.png");
+}
+.a2 {
+  background-image: url("assets/about-us/Icon\ sun.png");
+}
+.a3 {
+  background-image: url("assets/about-us/Icon\ flower.png");
+}
+.a4 {
+  background-image: url("assets/about-us/Icon\ heart.png");
+}
+.a5 {
+  background-image: url("assets/about-us/Icon\ hand.png");
+}
+.a6 {
+  background-image: url("assets/about-us/Icon\ people.png");
+}
+.a7 {
+  background-image: url("assets/about-us/Icon\ book.png");
+}
+.heading {
+  text-align: left;
+  font: normal normal bold 16px/20px Helvetica;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-bottom: 0.4rem;
+  display: flex;
+  margin-left: 0.8rem;
+  align-items: center;
+}
+.cont {
+  height: 70%;
+  text-align: left;
+  font: normal normal 300 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+}
+.main6 {
+  height: 15rem;
+  width: 100%;
+  background-color: #c1f7d5;
+  position: relative;
+}
+
+.subs {
+  display: flex;
+  height: 40%;
+  width: 80%;
+  justify-content: center;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: center;
+}
+
+.sub {
+  text-align: left;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+}
+
+.email {
+  height: 2rem;
+  width: 11rem;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  position: absolute;
+  bottom: 17%;
+  left: 7%;
+}
+
+.email1 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  color: #6c757d;
+}
+.read2 {
+  background-color: #354463;
+  bottom: 17%;
+  right: 10%;
+  position: absolute;
+  height: 2rem;
+  width: 7.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+.r3 {
+  color: #c1f7d5;
+  text-align: left;
+  font: normal normal bold 16px/19px Helvetica;
+  letter-spacing: 0px;
+  color: #c1f7d5;
+  opacity: 1;
+}
+.main4 {
+  height: 125vh;
+  position: relative;
+}
+.our {
+  height: 2.5rem;
+  width: 30%;
+  background-color: #354463;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #ffffff;
+  opacity: 1;
+  position: absolute;
+  top: 3.5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.meet {
+  height: 3.5rem;
+  width: 80%;
+  text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.cont1 {
+  text-align: center;
+  font: normal normal 300 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+  height: 3.5rem;
+  width: 80%;
+  padding: 1rem;
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.photos {
+  width: 100%;
+  height: 67%;
+  position: absolute;
+  top: 29%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.box1 {
+  height: 11rem;
+  width: 9rem;
+}
+.b1 {
+  height: 80%;
+  width: 100%;
+  background-image: url("assets/about-us/Screen-Shot-2018-10-04-at-9.35.07-PM.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.c1 {
+  padding: 0.5rem;
+  font: normal normal 300 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #ffffff;
+  background-color: #354463;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  position: absolute;
+  top: 100%;
+}
+.b2 {
+  background-image: url(assets/about-us/Screen-Shot-2018-10-04-at-9.35.17-PM.png);
+}
+.b3 {
+  background-image: url(assets/about-us/Screen-Shot-2018-10-04-at-9.35.37-PM.png);
+}
+.b4 {
+  background-image: url(assets/about-us/Screen-Shot-2018-10-04-at-9.36.04-PM.png);
+}
+.b5 {
+  background-image: url(assets/about-us/Screen-Shot-2018-10-04-at-9.36.19-PM.png);
+}
+.b6 {
+  background-image: url(assets/about-us/Screen-Shot-2018-10-04-at-9.37.13-PM.png);
+}
+.action {
+  height: 45vh;
+  background-color: #354463;
+  position: relative;
+}
+.actionlogo {
+  height: 90%;
+  width: 80%;
+  position: absolute;
+  background-image: url("assets/home/Screenshot_from_2025-06-02_10-43-11-removebg-preview.png");
+  background-repeat: no-repeat;
+
+  left: 15%;
+  top: 11.5%;
+}
