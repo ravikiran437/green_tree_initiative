@@ -233,6 +233,7 @@ r3 {
     left: 50%;
     transform: translateX(-50%);
     cursor:pointer;
+    text-decoration: none;
 }
 .readmore:hover {
     background-color: #a8eec3;
